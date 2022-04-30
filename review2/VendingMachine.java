@@ -11,7 +11,7 @@ public class VendingMachine {
     static void notes(int value) {
         if (value / NOTES[I] != 0) {
             TOTAL += (value / NOTES[I]);
-            System.out.println(NOTES[I] + "rs notes :" + value / NOTES[I]);
+            System.out.println("Rs "+ NOTES[I] + " notes = " + value / NOTES[I]);
             value = value % NOTES[I];
         }
         I++;
