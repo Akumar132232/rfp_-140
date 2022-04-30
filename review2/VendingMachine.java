@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class VendingMachine {
 
-    static int i, TOTAL;
+    static int i=0, TOTAL=0;
 
 
     static int[] NOTES = { 1000, 500, 100, 50, 10, 5, 2, 1 };
