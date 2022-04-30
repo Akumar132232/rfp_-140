@@ -2,19 +2,19 @@ import java.util.Scanner;
 
 public class VendingMachine {
 
-    static int I, TOTAL;
+    static int i, TOTAL;
 
 
     static int[] NOTES = { 1000, 500, 100, 50, 10, 5, 2, 1 };
 
 
     static void notes(int value) {
-        if (value / NOTES[I] != 0) {
-            TOTAL += (value / NOTES[I]);
-            System.out.println("Rs "+ NOTES[I] + " notes = " + value / NOTES[I]);
-            value = value % NOTES[I];
+        if (value / NOTES[i] != 0) {
+            TOTAL += (value / NOTES[i]);
+            System.out.println("Rs "+ NOTES[i] + " notes = " + value / NOTES[i]);
+            value = value % NOTES[i];
         }
-        I++;
+        i++;
         if (value == 0) {
             System.out.println("Total Number of Notes = " + TOTAL);
             return;
