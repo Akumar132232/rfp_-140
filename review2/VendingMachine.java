@@ -16,7 +16,7 @@ public class VendingMachine {
         }
         I++;
         if (value == 0) {
-            System.out.println("total notes :" + TOTAL);
+            System.out.println("Total Number of Notes = " + TOTAL);
             return;
         }
 
